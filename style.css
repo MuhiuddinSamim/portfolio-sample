@@ -85,8 +85,15 @@ main{
     padding: 130px 150px;
     text-align: center;
 }
+section{
+    margin-top: 130px;
+}
+
 .section-title{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
 
 }
 .section-description{
@@ -111,5 +118,37 @@ main{
 
     font-size: 20px;
     font-weight: 700;
+
+}
+/* what i do style */
+
+
+.skill{
+    background: rgba(247, 65, 223, 0.749);
+    border-radius: 5px;
+    box-shadow: 10px;
+    padding: 30px;
+
+}
+
+
+.skills-container {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+.skill-title{
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.skill-desription{
+
+    color: rgb(57, 64, 71);
 
 }
