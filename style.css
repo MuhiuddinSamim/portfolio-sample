@@ -122,7 +122,6 @@ section{
 }
 /* what i do style */
 
-
 .skill{
     background: rgba(247, 65, 223, 0.749);
     border-radius: 5px;
@@ -151,4 +150,8 @@ section{
 
     color: rgb(57, 64, 71);
 
+}
+/* resume style */
+.resume-content{
+    display: flex;
 }
