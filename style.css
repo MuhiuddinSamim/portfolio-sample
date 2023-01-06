@@ -12,7 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -35,7 +35,7 @@ nav li{
 .btn-primary{
      height: 64px;
      border-radius: 5px;
-     background: rgba(235, 53, 21, 0.974);
+     background: rgba(233, 92, 26, 0.967);
      color: white;
      font-size: 20px;
      font-weight: 700;
@@ -152,6 +152,67 @@ section{
 
 }
 /* resume style */
+
+.resume{
+    border-radius: 5px;
+}
+
+
 .resume-content{
     display: flex;
+    gap: 30px;
+}
+
+.resume-title{
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* contact style */
+.contact{ 
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px; 
+    justify-content: space-around;
+    background: rgba(245, 243, 169, 0.74);
+    
+}
+.contact-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contactd{
+    margin-bottom: 15px;
+}
+
+input,textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(246, 250, 251);
+}
+
+a{
+ padding: 30px;
 }
